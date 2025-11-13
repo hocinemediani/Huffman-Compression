@@ -32,8 +32,8 @@ gnatmake -gnatwa text_to_binary.adb
 
 # Run
 ./text_to_binary	./testfiles/exemple.txt
-./compresser 	./testfiles/exempleBINARY.txt
-./decompresser 	./testfiles/exempleBINARY.txt.hff
+./compresser 	    ./testfiles/exempleBINARY.txt
+./decompresser   	./testfiles/exempleBINARY.txt.hff
 ./binary_to_text 	./testfiles/exempleBINARY.txt.hff.d
 ```
 >💡 Make sure you have already installed GNAT Community !
